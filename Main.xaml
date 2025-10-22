@@ -192,7 +192,7 @@
                 </ui:LookupDataTable.CellValue>
               </ui:LookupDataTable>
               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;The invoice is sent to the email address &quot;+str_CurrentEmail+&quot; and the total cost to pay is: &quot;+int_Price.ToString + &quot; SEK.&quot;]" />
-              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="486,118" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hallo&quot;]" />
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="486,118" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Now I will send the email&quot;]" />
               <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,660" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                 <ui:CommentOut.Body>
                   <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,549" sap2010:WorkflowViewState.IdRef="Sequence_6">
